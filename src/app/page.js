@@ -1,5 +1,5 @@
+import First, { Second, Third } from "@/components/First";
 import Image from "next/image";
-import First, { Second, Third } from "../../components/First";
 export default function Home() {
   
   return (
@@ -15,8 +15,8 @@ export default function Home() {
               priority
             />
     <First />
-    <Second title=" Hi 2"/>
-    <Third p = 'i am asdg'/>
+    <Second title = 'Ammy'/>
+    <Third p = 'i af afa'/>
     </div>
     </>
     
