@@ -1,3 +1,4 @@
+
 import First, { Second, Third } from "@/components/First";
 import Image from "next/image";
 export default function Home() {
@@ -15,7 +16,11 @@ export default function Home() {
               priority
             />
     <First />
-    <Second title = 'Ammy'/>
+    <Second 
+      title = 'Ammy'
+      name = "Emy"
+      id = "1000"
+    />
     <Third p = 'i af afa'/>
     </div>
     </>

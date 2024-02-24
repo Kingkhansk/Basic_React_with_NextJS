@@ -88,3 +88,13 @@ export default function Home() {
 }
 
 ```
+
+toggle Div
+```
+const [open, setopen] = useState(false);
+
+<button onClick={()=> setopen(prev => !prev)}>Menu</button>
+{
+  open && <div>...</div>
+}
+```

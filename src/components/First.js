@@ -9,13 +9,17 @@ function First(){
 export default First;
 // Passing Props
 export const Second = (props) => {
+
   return (
-    <div>first {props.title}</div>
+    <div className="w-full bg-slate-600">first {props.title}  amd second {props.name} 
+    sdfs {props.id}
+    </div>
   )
 }
 // Passing javascriptObject
 export function Third( {p} ) {
   return (
-    <div>Third {p}</div>
+    <div>Third {p}
+    </div>
   )
 }
